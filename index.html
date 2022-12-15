@@ -8,53 +8,59 @@
     <title>2023년 버킷리스트</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-
         * {
             font-family: 'East Sea Dokdo', cursive;
         }
-     
+        .title {
+            color: goldenrod;
+            background-color: palegoldenrod;
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
+        }
+
         .bg {
             width: 360px;
             background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
-            background-size: cover;
-            background-position: center;
-            
-            margin: auto;
         }
+
+        .msg {
+            font-weight: bold;
+        }
+
         .bucket {
             width: 160px;
             height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
             background-size: cover;
             background-position: center;
         }
-        .img1 {
-		background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
-		background-size: cover;
-		background-position: center;
-	}
-	.img2 {
-		background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
-		background-size: cover;
-		background-position: center;
-	}
-    </style>
-   <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
-
 </head>
 
-<body class="bg center">
-    <h1 class="title-t1">2023 신년계획</h1>
-    <p class="'msg">2023년에 이룰 나의 다짐!</p>
+<body class="bg-t5 center">
+    <h1 class="title-t2">2023년 신년계획</h1>
+    <p class="msg">보다 더 발전해나가는 내가 되길 바라며, 새로운 시작을 응원하고 원하는 바 이룰 수 있게 항상 최선을 다하자~ 난 할 수 있다 ^.^!</p>
     <div class="row flex-row wrap">
         <div class="bucket img1-t2 center">주 3회 이상 운동하기</div>
         <div class="bucket img2-t2 center">공인중개사 합격하기</div>
         <div class="bucket img2-t2 center">한달에 한번 책 읽기</div>
-        <div class="bucket img1-t2 center">이직하기</div>
-        <div class="bucket img1-t2 center">연애하기</div>
-        <div class="bucket img2-t2 center">밤12시전에 취침하기</div>
+        <div class="bucket img1-t2 center">좋은 사람 만나기</div>
+        <div class="bucket img1-t2 center">밤12시전에 취침하기</div>
+        <div class="bucket img2-t2 center">이직하기</div>
     </div>
+
+
 </body>
 
 </html>
